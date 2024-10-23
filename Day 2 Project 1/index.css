@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'work sans';
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 80px;
+}
+
+#left{
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: column;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+
+#left h1{
+  font-size: 120px;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: 100px;
+}
+
+
+#bottom-left{
+  height: 40%;
+  width: 100%;
+  padding: 50px 0px;
+  font-weight: 400;
+  /* background-color: yellow; */
+}
+#color{
+  /* background-color: blue; */
+  width: fit-content;
+  padding: 7px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3px;
+  border: 1.5px solid black;
+  border-radius: 50px;
+  
+}
+
+#color h5{
+  font-weight: 200;
+}
+#color1{
+  height: 15px;
+  width: 15px;
+  background-color: burlywood;
+  border-radius: 50%;
+}
+
+#color2{
+  height: 15px;
+  width: 15px;
+  background-color: rgb(9, 198, 34);
+  border-radius: 50%;
+}
+#bottom{
+  margin: 40px 0px;
+}
+#bottom h2{
+  font-size: 30px;
+  font-family: monospace;
+}
+#bottom #lorem{
+  font-family: monospace;
+  width: 60%;
+  font-size: 15px;
+  font-weight: 600;
+  color: #444;
+  line-height: 25px;
+}
+#right{
+  height: 100%;
+  width: 40%;
+  /* background-color: aqua; */
+  position: relative;
+}
+#right_top{
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+#right_image img{
+  height: 100%;
+  width: 100%;
+}
+#black-gola{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background-color: black;
+  border-radius: 50%;
+  color: aliceblue;
+  right: -10%;
+  top: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 1000;
+}
+#rotated{
+  position: absolute;
+  top: 75%;
+  left: -18%;
+  font-family: monospace;
+  /* color: rgb(255, 255, 255); */
+  transform: rotate(270deg);
+}
