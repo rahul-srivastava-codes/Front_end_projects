@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  height: 100%;
+  width: 100%;
+  /* background-color: brown; */
+}
+#nav{
+  height: 80px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+#nav-part1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.gola{
+  height: 22px;
+  width: 22px;
+  background-color: rgb(117, 129, 121);
+  border-radius: 50%;
+}
+#nav-part2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#nav-part2 h4{
+  font-size: 16px;
+  font-weight: 600;
+
+}
+#nav-part2 h4 span{
+  color: gray;
+  margin-left: 25px;
+}
+
+#nav2{
+  height: 70px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  gap: 75px;
+  padding: 0 50px;
+}
+
+#nav2 h3{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: monospace;
+}
+
+#content{
+  /* background-color: rgb(48, 176, 63); */
+  width: 100%;
+  height: calc(100% - 150px);
+}
+
+#text-content{
+  height: 40%;
+  width: 100%;
+  /* background-color: burlywood; */
+  display: flex;
+  /* flex-wrap: nowrap; */
+  overflow: auto;
+}
+
+#text-content::-webkit-scrollbar{
+  background-color: transparent;
+  height: 2px;
+}
+
+#text-content::-webkit-scrollbar-thumb{
+  background-color: orangered;
+}
+
+.elem{
+  flex-shrink: 0;
+  height: 100%;
+  width: 50%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elem h1{
+  font-family: cursive;
+  font-weight: 10;
+  font-size: 90px;
+}
+
+#image-content{
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+#image-content img{
+  flex-shrink: 0;
+  width: 100%;
+  height: 200%;
+}
+
+#image-content::-webkit-scrollbar{
+  background-color: transparent;
+  height: 1px;
+}
+
+#image-content::-webkit-scrollbar-thumb{
+  background-color: orangered;
+}
